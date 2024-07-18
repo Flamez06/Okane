@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Inter;
+}
+
+#eb2, #eb1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+}
+#eb2 div, #eb1 div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.circle {
+  background-color: #CAEAD9;
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #F7F7F9;
+}
+
+#pfpbox {
+  display: flex;
+  font-size: 11px;
+}
+#pfpbox img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  border: solid black 2px;
+}
+#pfpbox div {
+  margin: 10px 0px 0px 20px;
+}
+#pfpbox p {
+  color: #919191;
+  padding-top: 3px;
+  font-size: 10px;
+}
+
+#d1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+#d1 #bb {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#d1 #bb p1 {
+  color: #919191;
+  font-size: 15px;
+}
+
+#eb {
+  display: flex;
+  gap: 20px;
+}
+
+#eb1 {
+  color: #01A261;
+}
+
+#eb2 {
+  color: #FD1B2C;
+}
+
+.bf {
+  color: black;
+}
+
+#d2 {
+  padding: 5px 30px 0px 30px;
+}
+#d2 h1 {
+  font-size: 22px;
+}
+
+#graph {
+  margin-top: 18px;
+  height: 320px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+@media (max-width: 900px) {
+  #graph {
+    height: 240px;
+  }
+}
+#d3 {
+  padding: 20px 30px 0px 30px;
+}
+#d3 h1 {
+  font-size: 22px;
+}
+#d3 div {
+  margin-top: 10px;
+}
+
+.goal-cards {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.bluebox {
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  background-color: #CAE0FF;
+}
+
+.gt {
+  padding: 0px 25px 0px 25px;
+}
+.gt h3 {
+  font-weight: 5px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=App.css.map */
